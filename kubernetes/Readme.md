@@ -1,5 +1,5 @@
-# NOTES:
-----------
+# NOTES:K'8 s
+----------=-----
 
 * devloping dockerfiles in local and pushing to github repo.
 * Installing docker in docker work station.
@@ -51,3 +51,9 @@ kubectl describe pod <pod-name>   (if you want to see which namespace it is and 
 
 # sideCar Container:
 =====================
+
+* it will collect the logs from application and send to ELK or promotheous 
+* if container will crash logs will be there in ELK
+* sidecar Proxy 
+
+
