@@ -28,7 +28,7 @@
 
 # what is the command to see the pods?
 
-* kubectl get pods  (if you want to see which namespace it is and which cluster it is) -n <namespce> --context <cluster>
+*kubectl get pods  (if you want to see which namespace it is and which cluster it is) -n <namespce> --context <cluster>
 
 # what is the CrashLoopBackOff:
 ================================
