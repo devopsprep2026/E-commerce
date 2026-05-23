@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: labeles
+  labeles: 
+    project: digiapp
+    component: mysql
+    tier: backend
+    environment: dev
+spec:
+  containers:
+  - name: nginx
+    image: vinodh9072/nginx1.0
+    

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: digiapp-uat-config 
+  labeles: 
+    purpose: config 
+    environment: uat
+data:
+  COURSE: "DEVOPS"
+  DURATION: "90 HRS"
+  TARINER: "CHAITYANYA KANAKAM"
+  FEE: "LIFE TIME FREE"

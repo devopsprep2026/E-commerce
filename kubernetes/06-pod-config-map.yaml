@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: env-ConfigMap # ist jus name 
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    envFrom:
+    - ConfigMapRef:
+        name: ConfigMap  # here name of configMap which you created outside of the pod defenition
+# if any changes are there in config , just only chnage in configMap and restart the pod .
+
