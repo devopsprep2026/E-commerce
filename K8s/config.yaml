@@ -1,0 +1,22 @@
+
+# File: 01-config.yaml
+
+apiVersion: v1
+
+kind: ConfigMap
+
+metadata:
+
+  name: E-commerce-config
+
+  namespace: production
+
+data:
+
+  APP_ENV: 'production'
+
+  APP_PORT: '8080'        # ← updated
+
+  LOG_LEVEL: 'info'
+
+  NODE_ENV: 'production'
